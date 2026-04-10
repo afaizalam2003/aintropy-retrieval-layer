@@ -1,0 +1,182 @@
+{
+  "cold_avg_ms": 323.665,
+  "cached_avg_ms": 19.599,
+  "speedup": 16.514362977702945,
+  "cache_stats": {
+    "hits": 10,
+    "misses": 10,
+    "hit_rate_pct": 50.0
+  },
+  "rows": [
+    {
+      "query": "What is the role of TP53 in cancer?",
+      "embed_ms": 23.78,
+      "cache_lookup_ms": 0.01,
+      "vector_search_ms": 0.18,
+      "rerank_ms": 348.6,
+      "cache_store_ms": 0.01,
+      "total_ms": 372.58,
+      "status": "MISS"
+    },
+    {
+      "query": "Effects of climate change on coral reefs",
+      "embed_ms": 21.96,
+      "cache_lookup_ms": 0.13,
+      "vector_search_ms": 0.21,
+      "rerank_ms": 338.42,
+      "cache_store_ms": 0.01,
+      "total_ms": 360.73,
+      "status": "MISS"
+    },
+    {
+      "query": "How do mRNA vaccines work?",
+      "embed_ms": 21.92,
+      "cache_lookup_ms": 0.09,
+      "vector_search_ms": 0.08,
+      "rerank_ms": 288.34,
+      "cache_store_ms": 0.0,
+      "total_ms": 310.43,
+      "status": "MISS"
+    },
+    {
+      "query": "CRISPR gene editing applications",
+      "embed_ms": 19.26,
+      "cache_lookup_ms": 0.11,
+      "vector_search_ms": 0.1,
+      "rerank_ms": 285.04,
+      "cache_store_ms": 0.0,
+      "total_ms": 304.51,
+      "status": "MISS"
+    },
+    {
+      "query": "Diabetes type 2 risk factors",
+      "embed_ms": 19.04,
+      "cache_lookup_ms": 0.08,
+      "vector_search_ms": 0.08,
+      "rerank_ms": 299.84,
+      "cache_store_ms": 0.01,
+      "total_ms": 319.05,
+      "status": "MISS"
+    },
+    {
+      "query": "Antibiotic resistance mechanisms",
+      "embed_ms": 19.56,
+      "cache_lookup_ms": 0.09,
+      "vector_search_ms": 0.07,
+      "rerank_ms": 263.75,
+      "cache_store_ms": 0.01,
+      "total_ms": 283.48,
+      "status": "MISS"
+    },
+    {
+      "query": "Alzheimer's disease biomarkers",
+      "embed_ms": 19.88,
+      "cache_lookup_ms": 0.08,
+      "vector_search_ms": 0.07,
+      "rerank_ms": 297.81,
+      "cache_store_ms": 0.0,
+      "total_ms": 317.84,
+      "status": "MISS"
+    },
+    {
+      "query": "Stem cell therapy for heart disease",
+      "embed_ms": 20.37,
+      "cache_lookup_ms": 0.1,
+      "vector_search_ms": 0.08,
+      "rerank_ms": 295.47,
+      "cache_store_ms": 0.0,
+      "total_ms": 316.02,
+      "status": "MISS"
+    },
+    {
+      "query": "COVID-19 long term effects",
+      "embed_ms": 21.07,
+      "cache_lookup_ms": 0.08,
+      "vector_search_ms": 0.07,
+      "rerank_ms": 307.61,
+      "cache_store_ms": 0.01,
+      "total_ms": 328.84,
+      "status": "MISS"
+    },
+    {
+      "query": "Microbiome and immune system",
+      "embed_ms": 21.07,
+      "cache_lookup_ms": 0.15,
+      "vector_search_ms": 0.09,
+      "rerank_ms": 301.86,
+      "cache_store_ms": 0.0,
+      "total_ms": 323.17,
+      "status": "MISS"
+    },
+    {
+      "query": "How does TP53 function in tumors?",
+      "embed_ms": 19.53,
+      "cache_lookup_ms": 0.12,
+      "total_ms": 19.65,
+      "status": "HIT"
+    },
+    {
+      "query": "Climate change effects on coral reefs",
+      "embed_ms": 18.72,
+      "cache_lookup_ms": 0.12,
+      "total_ms": 18.84,
+      "status": "HIT"
+    },
+    {
+      "query": "Mechanism of mRNA vaccines",
+      "embed_ms": 18.04,
+      "cache_lookup_ms": 0.13,
+      "total_ms": 18.17,
+      "status": "HIT"
+    },
+    {
+      "query": "Applications of CRISPR gene editing",
+      "embed_ms": 18.0,
+      "cache_lookup_ms": 0.11,
+      "total_ms": 18.11,
+      "status": "HIT"
+    },
+    {
+      "query": "Risk factors for type 2 diabetes",
+      "embed_ms": 18.13,
+      "cache_lookup_ms": 0.12,
+      "total_ms": 18.25,
+      "status": "HIT"
+    },
+    {
+      "query": "Mechanisms of antibiotic resistance",
+      "embed_ms": 17.42,
+      "cache_lookup_ms": 0.1,
+      "total_ms": 17.52,
+      "status": "HIT"
+    },
+    {
+      "query": "Biomarkers of Alzheimer's disease",
+      "embed_ms": 21.51,
+      "cache_lookup_ms": 0.1,
+      "total_ms": 21.61,
+      "status": "HIT"
+    },
+    {
+      "query": "Using stem cells to treat heart conditions",
+      "embed_ms": 22.54,
+      "cache_lookup_ms": 0.09,
+      "total_ms": 22.63,
+      "status": "HIT"
+    },
+    {
+      "query": "Long-term effects of COVID-19",
+      "embed_ms": 19.98,
+      "cache_lookup_ms": 0.19,
+      "total_ms": 20.17,
+      "status": "HIT"
+    },
+    {
+      "query": "Microbiome influence on the immune system",
+      "embed_ms": 20.91,
+      "cache_lookup_ms": 0.13,
+      "total_ms": 21.04,
+      "status": "HIT"
+    }
+  ]
+}
