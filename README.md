@@ -7,7 +7,7 @@
 
 > A sub-second semantic retrieval middleware that sits between a user query and a vector store. Combines a **semantic cache** with a **cross-encoder reranker** to deliver **12.5× faster** responses on repeated semantic intents — without sacrificing accuracy.
 
-Built as a proof-of-concept for the AIntropy founding engineer interview, in response to Concrete Problem 2: The Extreme-Fast Retrieval Layer.
+Built as a proof-of-concept for the  founding engineer interview, in response to Concrete Problem 2: The Extreme-Fast Retrieval Layer.
 
 ---
 
@@ -292,6 +292,6 @@ These are intentionally out of scope for a POC. They're documented here because 
 
 ## Built For
 
-This project was built as a take-home exercise for the **AIntropy founding engineer interview**, in response to Concrete Problem 2 from the interview problem set. The goal was to demonstrate not just that the architecture works, but that I can build it end-to-end, debug it empirically, and reason about how it would scale to AIntropy's actual problem domain (100M+ enterprise documents, sub-second latency, RAG accuracy beyond ChatGPT).
+This project was built as a take-home exercise for the **founding engineer interview**, in response to Concrete Problem 2 from the interview problem set. The goal was to demonstrate not just that the architecture works, but that I can build it end-to-end, debug it empirically, and reason about how it would scale to AIntropy's actual problem domain (100M+ enterprise documents, sub-second latency, RAG accuracy beyond ChatGPT).
 
 **Author**: Faiz Alam · [GitHub](https://github.com/afaizalam2003) · April 2026
